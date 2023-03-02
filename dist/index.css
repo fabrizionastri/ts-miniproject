@@ -31,4 +31,51 @@ ul {
 /* check box element style */
 input[type="checkbox"] {
   margin-right: 10px;
+  cursor: pointer; 
+}
+
+.float-right { 
+  float: right; 
+
+}
+
+.text-button { 
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* left and right margin 5 px */
+  margin: 0 3px;
+  padding: 0 1px;
+  font-size: 1.2em;
+}
+
+form {
+  /* display: inline-block; */
+  /* align to the right, on the same line as the rest */
+  float: right;
+}
+
+#toDoInput {
+  width: 400px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+h3 {
+  display: inline-block;
+   /* top and bottom margin of 5px */
+   margin: 5px;
+}
+
+#btn {
+  background-color: #6b6e6b;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px 0;
 }
